@@ -1,0 +1,43 @@
+extends ../node_modules/pug-bootstrap/layouts/cover
+append styles
+	//	!-- Custom styles for this template --
+	link(href="../css/cover_resume.css", rel="stylesheet")
+
+block navbar
+	h3.masthead-brand Cameron Massey
+	nav
+		ul.nav.masthead-nav
+			li
+				a(href="/") Home
+			li
+				a(href="resume") Resume
+			li.active
+				a(href="projects") Projects
+			li
+				a(href="#") About
+			li
+				a(href="#") Contact
+				
+block content
+	.inner.cover
+		h1.cover-heading Resume
+		p.lead My primary skill set resides in the software development field. However my most recent interest has taken me in the direction of web development. I'm looking to expand my web development skills and explore new career opportunities.
+		h3 Eastern Washington University
+		ul(style='white-space:pre;')
+			li
+				p Bachelors of Computer Science 
+			li
+				p 3.51 GPA								
+			li
+				p Experience working on group projects over a variety of topics. You can view some of these projects #[a(href='/', style = "color: #ff0000") here].
+		h3 FAST Interprises
+		h4 Employment: 2017 - Present
+		p At FAST I worked with a vibrant team of people I don't know yet to work on things I don't know about.
+		h3 Alert System Gatherer
+		h4 Contracted Web Project
+		p The Alert System Gatherer web app was a project that me and three other teammates worked on for around 6 months. This project was connected from a client through the University of Eastern Washington. For more details you can view the project on my GitHub page #[a(href='https://github.com/OutdoorCoder/AlertTeamV2', style = "color: #ff0000") here]. 
+
+block footer		
+	.mastfoot
+		.inner
+			p Phone: 360-739-3379, Email: cameron_massey@yahoo.com

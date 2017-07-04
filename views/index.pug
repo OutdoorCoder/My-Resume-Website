@@ -1,0 +1,28 @@
+extends ../node_modules/pug-bootstrap/layouts/cover
+
+block navbar
+	h3.masthead-brand Cameron Massey
+	nav
+		ul.nav.masthead-nav
+			li.active
+				a(href="/") Home
+			li
+				a(href="resume") Resume
+			li
+				a(href="projects") Projects
+			li
+				a(href="#") About
+			li
+				a(href="#") Contact
+				
+block content
+	.inner.cover
+		h1.cover-heading Welcome
+		p.lead My name is Cameron Massey. This website serves to display my skills and experience in web development, and a bit about me. I also enjoy looking dumb in photos.
+		p.lead
+		a(href="resume", class="btn btn-lg btn-default") Learn more
+
+block footer			
+	.mastfoot
+		.inner
+			p Phone: 360-739-3379, Email: cameron_massey@yahoo.com
