@@ -1,4 +1,7 @@
-extends ../node_modules/pug-bootstrap/layouts/cover
+extends layout
+append styles
+	//	!-- Custom styles for this template --
+	link(href="../css/welcome_page.css", rel="stylesheet")
 
 block navbar
 	h3.masthead-brand Cameron Massey
@@ -18,11 +21,6 @@ block navbar
 block content
 	.inner.cover
 		h1.cover-heading Welcome
-		p.lead My name is Cameron Massey. This website serves to display my skills and experience in web development, and a bit about me. I also enjoy looking dumb in photos.
+		p.lead My name is Cameron Massey. This website serves to display my skills and experience in web development, and a bit about me.
 		p.lead
 		a(href="resume", class="btn btn-lg btn-default") Learn more
-
-block footer			
-	.mastfoot
-		.inner
-			p Phone: 360-739-3379, Email: cameron_massey@yahoo.com

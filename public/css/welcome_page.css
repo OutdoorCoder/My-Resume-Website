@@ -15,8 +15,8 @@ a:hover {
 .btn-default:focus {
   color: #333;
   text-shadow: none; /* Prevent inheritence from `body` */
-  background-color: #fff;
-  border: 1px solid #fff;
+  background-color: #F0F8FF;
+  border: 1px solid #F0F8FF;
 }
 
 
@@ -28,7 +28,7 @@ html,
 body {
   height: 100%;
   background-color: #333;
-  background-image: url('http://localhost:3000/images/cameron.jpg');
+  background-image: url('http://localhost:3000/images/mountains.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -36,7 +36,6 @@ body {
   color: #fff;
   text-align: center;
   text-shadow: 0 1px 3px rgba(0,0,0,.5);
-  font-size: 17px;
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
@@ -55,14 +54,11 @@ body {
 .cover-container {
   margin-right: auto;
   margin-left: auto;
-  margin-top: 100px;
-
 }
 
 /* Padding for spacing */
 .inner {
   padding: 30px;
-
 }
 
 
@@ -118,16 +114,11 @@ body {
 
 .cover {
   padding: 0 20px;
-  background-color: #fff;
-  text-align: left;
-  color: #333;
-  text-shadow: none;
 }
 .cover .btn-lg {
   padding: 10px 20px;
   font-weight: bold;
-
-
+  width: 50%;
 }
 
 
@@ -157,19 +148,15 @@ body {
   }
   /* Start the vertical centering */
   .site-wrapper-inner {
-    vertical-align: top;
+    vertical-align: middle;
   }
 
   .cover {
-    width: 80%;
+    width: 50%;
     display: inline-block;
-    text-align: left;
-
-    color: #333;
-    text-shadow: none; /* Prevent inheritence from `body` */
-    background-color: #fff;
-    border: 1px solid #fff;
-    border-radius: 5px;
+    background-color: transparent;
+    border: none;
+    text-align: center;
   }
   /* Handle the widths */
   .masthead,
