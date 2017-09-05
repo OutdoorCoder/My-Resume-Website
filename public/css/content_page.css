@@ -28,7 +28,6 @@ html,
 body {
   height: 100%;
   background-color: #333;
-  background-image: url('http://localhost:3000/images/mountains.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -41,7 +40,7 @@ body {
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
 .site-wrapper {
-  display: table;
+  display: inline-block;
   width: 100%;
   height: 100%; /* For at least Firefox */
   min-height: 100%;
@@ -112,6 +111,26 @@ body {
   }
 }
 
+/*
+ * Sidebar
+ */
+
+.leftnav{
+  width: 20%;
+  display: inline-block;
+  text-align: left;
+  float: left;
+
+  height: 500px;
+  padding-left: 10px;
+
+  color: #333;
+  text-shadow: none; /* Prevent inheritence from `body` */
+  background-color: #F0F8FF;
+  border: 1px solid #F0F8FF;
+  border-radius: 5px;
+}
+
 
 /*
  * Cover
@@ -119,7 +138,7 @@ body {
 
 .cover {
   padding: 0 20px;
-  background-color: #F0F8FF;
+  background-color: #fff;
   text-align: left;
   color: #333;
   text-shadow: none;
@@ -159,17 +178,32 @@ body {
   /* Start the vertical centering */
   .site-wrapper-inner {
     vertical-align: top;
+    width: 80%;
   }
 
-  .cover {
-    width: 80%;
+  .content {
+    width: 70%;
     display: inline-block;
     text-align: left;
+    height: 100%;
 
     color: #333;
     text-shadow: none; /* Prevent inheritence from `body` */
     background-color: #F0F8FF;
     border: 1px solid #F0F8FF;
+    border-radius: 5px;
+  }
+
+  .leftnav{
+    width: 10%;
+    text-align: left;
+
+    padding-left: 10px;
+
+    color: #333;
+    text-shadow: none; /* Prevent inheritence from `body` */
+    background-color: #F0F8FF;
+    border: 1px solid #999;
     border-radius: 5px;
   }
   /* Handle the widths */

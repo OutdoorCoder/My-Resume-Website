@@ -1,3 +1,5 @@
+//Working on getting the left sidebar to align next to the main one
+
 extends layout
 
 block navbar
@@ -15,8 +17,12 @@ block navbar
 			li
 				a(href="#") Contact
 				
+block sidebar
+	.inner.site-wrapper-inner.leftnav
+		p.lead hi. You're attempting to make this into a page navbar kind of thing. On the left side of the page.
+				
 block content
-	.inner.cover
+	.inner.site-wrapper-inner.content
 		h1.cover-heading Projects
 		p.lead Here are some of my personal projects.
 		.image-block
