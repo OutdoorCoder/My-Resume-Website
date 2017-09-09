@@ -1,6 +1,4 @@
-//Working on getting the left sidebar to align next to the main one
-
-extends layout
+extends projectLayout
 
 block navbar
 	h3.masthead-brand Cameron Massey
@@ -18,16 +16,44 @@ block navbar
 				a(href="#") Contact
 				
 block sidebar
-	.inner.site-wrapper-inner.leftnav
-		p.lead hi. You're attempting to make this into a page navbar kind of thing. On the left side of the page.
+	.leftnav
+		a(style="color:red;",href="projects#breakout2") Breakout Copy
 				
 block content
-	.inner.site-wrapper-inner.content
+	.inner.content
 		h1.cover-heading Projects
 		p.lead Here are some of my personal projects.
 		.image-block
-			h3 Breakout Copy
+			h3(id = breakout) Breakout Copy
 			a(href="http://localhost:3000/images/Breakout.png")
 				img.image(src='http://localhost:3000/images/Breakout.png', style='float: right; height: 400px')
 			p For the final project of an android development class I took in college I created this phone app. Its a remake of the classic breakout game.
+			
+			p(style='white-space:pre;') 
+				| sfsdf sd
+				| dsfffffffffff
+				| sfsdf sd
+				| dsfffffffffff
+				| sfsdf sd
+				| dsfffffffffff
+				| sfsdf sd
+				| dsfffffffffff
+				| sfsdf sd
+				| dsfffffffffff
+				| sfsdf sd
+				| dsfffffffffff
+				| sfsdf sd
+				| dsfffffffffff
+				| sfsdf sd
+				| dsfffffffffff
+				| sfsdf sd
+				| dsfffffffffff
+				| sfsdf sd
+				| dsfffffffffff
+				| sfsdf sd
+				| dsfffffffffff
+				| sfsdf sd
+				| dsfffffffffff
+			h3#breakout2 Breakout Copy
+				
 			
