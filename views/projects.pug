@@ -17,43 +17,21 @@ block navbar
 				
 block sidebar
 	.leftnav
-		a(style="color:red;",href="projects#breakout2") Breakout Copy
+		a(style="color:red;",href="projects#breakout") Breakout Copy
 				
 block content
 	.inner.content
 		h1.cover-heading Projects
 		p.lead Here are some of my personal projects.
-		.image-block
-			h3(id = breakout) Breakout Copy
-			a(href="http://localhost:3000/images/Breakout.png")
-				img.image(src='http://localhost:3000/images/Breakout.png', style='float: right; height: 400px')
-			p For the final project of an android development class I took in college I created this phone app. Its a remake of the classic breakout game.
-			
-			p(style='white-space:pre;') 
-				| sfsdf sd
-				| dsfffffffffff
-				| sfsdf sd
-				| dsfffffffffff
-				| sfsdf sd
-				| dsfffffffffff
-				| sfsdf sd
-				| dsfffffffffff
-				| sfsdf sd
-				| dsfffffffffff
-				| sfsdf sd
-				| dsfffffffffff
-				| sfsdf sd
-				| dsfffffffffff
-				| sfsdf sd
-				| dsfffffffffff
-				| sfsdf sd
-				| dsfffffffffff
-				| sfsdf sd
-				| dsfffffffffff
-				| sfsdf sd
-				| dsfffffffffff
-				| sfsdf sd
-				| dsfffffffffff
-			h3#breakout2 Breakout Copy
-				
-			
+		div#breakout(class='project-post')
+			.image-block
+				h3 Breakout Copy
+				a(href="http://localhost:3000/images/Breakout.png")
+					img.image(src='http://localhost:3000/images/Breakout.png', style='float: right; height: 400px')
+				p For the final project of an android development class I took in college I created this phone app. Its a remake of the classic breakout game.
+		div#alertSystem(class='project-post')
+			.image-block
+				h3 Alert System Gatherer
+				p This project has been created by an EWU senior project team. The purpose of this project is to provide a a single web app that provides information and push notifications for local alerts in the Spokane area. Alerts include WSDOT traffic alerts such as road closures, traffic incidents, road conditions, and severe weather warnings through NWS. The future goal of the project is too include other alert services like fires, crime, and school closures.
+				a(href="http://localhost:3000/images/Breakout.png")
+					img.image(src='http://localhost:3000/images/Breakout.png', style= 'height: 400px')

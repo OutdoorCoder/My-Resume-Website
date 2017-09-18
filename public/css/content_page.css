@@ -27,7 +27,7 @@ a:hover {
 html,
 body {
   height: 100%;
-  background-color: #336699;
+  background-color: #77c9d4;
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url('http://localhost:3000/images/squamish.jpg');
@@ -104,6 +104,14 @@ body {
   border-bottom-color: #fff;
 }
 
+
+.project-post
+{
+  height: 600px;
+}
+
+
+
 @media (min-width: 768px) {
   .masthead-brand {
     float: left;
@@ -171,7 +179,7 @@ body {
 @media (min-width: 768px) {
   /* Pull out the header and footer */
   .masthead {
-    position: fixed;
+    position: absolute;
     top: 0;
   }
   .mastfoot {
@@ -187,8 +195,8 @@ body {
 
     color: #333;
     text-shadow: none; /* Prevent inheritence from `body` */
-    background-color: #F0F8FF;
-    border: 1px solid #F0F8FF;
+    background-color: #ccffff;
+    border: 1px solid #ccffff;
     border-radius: 5px;
   }
 
@@ -201,7 +209,7 @@ body {
     padding-left: 10px;
     color: #333;
     text-shadow: none; /* Prevent inheritence from `body` */
-    background-color: #F0F8FF;
+    background-color: #ccffff;
     border: 1px solid #999;
     border-radius: 5px;
   }
