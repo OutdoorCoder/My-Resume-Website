@@ -17,7 +17,11 @@ block navbar
 				
 block sidebar
 	.leftnav
-		a(style="color:red;",href="projects#breakout") Breakout Copy
+		ul
+			li 
+				a(style="color:red;",href="projects#breakout") Breakout Copy
+			li 
+				a(style="color:red;",href="projects#alertSystem") Alert System Gatherer
 				
 block content
 	.inner.content
@@ -26,12 +30,22 @@ block content
 		div#breakout(class='project-post')
 			.image-block
 				h3 Breakout Copy
-				a(href="http://localhost:3000/images/Breakout.png")
-					img.image(src='http://localhost:3000/images/Breakout.png', style='float: right; height: 400px')
 				p For the final project of an android development class I took in college I created this phone app. Its a remake of the classic breakout game.
+				a(href="http://localhost:3000/images/Breakout.png")
+					img.image(src='http://localhost:3000/images/Breakout.png', style='height: 400px')
+				
 		div#alertSystem(class='project-post')
 			.image-block
 				h3 Alert System Gatherer
-				p This project has been created by an EWU senior project team. The purpose of this project is to provide a a single web app that provides information and push notifications for local alerts in the Spokane area. Alerts include WSDOT traffic alerts such as road closures, traffic incidents, road conditions, and severe weather warnings through NWS. The future goal of the project is too include other alert services like fires, crime, and school closures.
+				p Me and three others created this project at EWU for our University Culminating Project. The purpose of this project is to provide a a single web app that provides information and push notifications for local alerts in the Spokane area. Alerts include WSDOT traffic alerts such as road closures, traffic incidents, road conditions, and severe weather warnings through NWS. The future goal of the project is too include other alert services like fires, crime, and school closures.
 				a(href="http://localhost:3000/images/AlertSystemGatherer.png")
 					img.image(src='http://localhost:3000/images/AlertSystemGatherer.png', style= 'height: 400px')
+						
+				h4 Project Structure
+				
+				p The project structure is broken up into two parts, the CronUpdater, and the WebApp.
+					ul
+						li
+							| The function of the CronUpdater is to check at regular intervals whether or not the WSDOT or NWS has new alerts, update the current alerts, and store this information on the database. The user never see's any part of the CronUpdater.
+						li
+							| The WebApp handles all user interactions like one might see in any other website.
