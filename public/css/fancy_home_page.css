@@ -1,0 +1,34 @@
+html,
+body {
+  height: 100%;
+  background-color: #77c9d4;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  text-align: center;
+  font-size: 17px;
+}
+
+
+.site-wrapper {
+  width: 100%;/* For at least Firefox */
+  height: 100%;
+
+}
+
+.site-wrapper-content {
+  margin-top: 10%;
+  height: 70%;
+  text-align: center;
+  position: relative;
+}
+
+.image-container{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  width: 70%;
+  background-image: url('http://localhost:3000/images/cameron.jpg');
+  background-repeat: no-repeat;
+}

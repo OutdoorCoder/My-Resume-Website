@@ -14,4 +14,8 @@ router.get('/projects', function(req, res, next) {
   res.render('projects', { title: 'Cameron Massey' });
 });
 
+router.get('/fancy', function(req, res, next) {
+  res.render('fancy_home_page', { title: 'Cameron Massey' });
+});
+
 module.exports = router;
