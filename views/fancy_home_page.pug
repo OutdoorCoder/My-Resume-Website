@@ -4,10 +4,23 @@ append styles
   
 block body
   .site-wrapper
-    .site-wrapper-content
+    .navbar-container
+      .navbar-content
+        block navbar
+          nav
+            ul
+              li.active
+                a(href="fancy") Home
+              li
+                a(href="resume") Resume
+              li
+                a(href="projects") Projects
+              li
+                a(href="#") About
+              li
+                a(href="#") Contact
+    .content-wrapper
       .image-container
-      block navbar
-    
       block content
         p hello
     

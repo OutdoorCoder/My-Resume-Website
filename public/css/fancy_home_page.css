@@ -1,14 +1,16 @@
 html,
 body {
   height: 100%;
-  background-color: #77c9d4;
+  background-color: #111;
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
-  text-align: center;
   font-size: 17px;
 }
 
+/*
+Site containers
+*/
 
 .site-wrapper {
   width: 100%;/* For at least Firefox */
@@ -16,19 +18,83 @@ body {
 
 }
 
-.site-wrapper-content {
-  margin-top: 10%;
+.content-wrapper {
   height: 70%;
   text-align: center;
   position: relative;
 }
 
-.image-container{
+.image-container {
   position: absolute;
   bottom: 0;
   left: 0;
   height: 100%;
-  width: 70%;
+  width: 100%;
   background-image: url('http://localhost:3000/images/cameron.jpg');
   background-repeat: no-repeat;
+}
+
+
+.navbar-container {
+  height: 20%;
+  background-color: #333;
+}
+
+
+/*
+Navbar attributes
+*/
+
+
+.navbar-content{
+  height: 100%;
+}
+
+.navbar-content > nav {
+  height: 100%;
+}
+
+.navbar-content > nav > ul {
+  background-color: #ebebeb;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-content > nav > ul > li {
+  list-style-type: none;
+  float: left;
+  width: 20%;
+  height: 100%;
+}
+
+.navbar-content > nav > ul > li > a {
+  display: flex;
+  align-items: center;
+  padding: 14px 16px;
+  height: 100%;
+
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  text-shadow: 0 1px 3px rgba(0,0,0,.5);
+  color: #111; /* IE8 proofing */
+  color: rgba(0,0,0,.75);
+}
+
+.navbar-content > nav > ul > li > a:hover {
+  background-color: #c1c1c1;
+
+}
+
+.navbar-content .active {
+  background-color: #111;
+
+}
+
+.navbar-content .active > a,
+.navbar-content .active > a:hover {
+  background-color: #333;
+  color: #fff;
 }
