@@ -6,8 +6,8 @@ block body
   .site-wrapper
     .navbar-container
       .navbar-content
+        hr(style = "height:1; margin-top: 0")
         block navbar
-          hr(style = "height:1")
           nav
             ul
               li.active
@@ -21,9 +21,16 @@ block body
               li
                 a(href="#") Contact
     .content-wrapper
-      .image-container
       block content
-        p hello
-    
-    block footer
-      p hi
+        .quote-one
+          p "He has great hair"
+          p(style='text-align: center') - Abraham Lincoln
+        
+        .quote-two
+          p "I've heard he's good with computers"
+          p(style='text-align: center') - Anonymous IT Guy
+        
+        
+        .welcome-button
+          h1 Welcome
+          a(href="resume", class="btn btn-lg btn-default") Learn more
