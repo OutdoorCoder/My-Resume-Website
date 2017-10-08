@@ -1,36 +1,21 @@
-extends ../bootstrap/_bootstrap
+extends fancy_layout
 append styles
   link(href="../css/fancy_home_page.css", rel="stylesheet")
-  
-block body
-  .site-wrapper
-    .navbar-container
-      .navbar-content
-        hr(style = "height:1; margin-top: 0")
-        block navbar
-          nav
-            ul
-              li.active
-                a(href="fancy") Home
-              li
-                a(href="resume") Resume
-              li
-                a(href="projects") Projects
-              li
-                a(href="#") About
-              li
-                a(href="#") Contact
-    .content-wrapper
-      block content
-        .quote-one
-          p "He has great hair"
-          p(style='text-align: center') - Abraham Lincoln
+    
+block content
+  .content-wrapper
+    .quote-one
+      p "He has great hair"
+      p(style='text-align: center') - Abraham Lincoln
         
-        .quote-two
-          p "I've heard he's good with computers"
-          p(style='text-align: center') - Anonymous IT Guy
+    .quote-two
+      p "I've heard he's good with computers"
+      p(style='text-align: center') - Anonymous IT Guy
         
+    .quote-three
+      p(style='text-align: center') "Who?"
+      p - Elon Musk
         
-        .welcome-button
-          h1 Welcome
-          a(href="resume", class="btn btn-lg btn-default") Learn more
+    .welcome-button
+      h1 Welcome
+      a(href="resume", class="btn btn-lg btn-default") Learn more

@@ -1,0 +1,25 @@
+extends ../bootstrap/_bootstrap
+append styles
+  link(href="../css/fancy_base.css", rel="stylesheet")
+  
+block body
+  .site-wrapper
+    .navbar-container
+      .navbar-content
+        hr(style = "height:1; margin-top: 0")
+        block navbar
+          nav
+            ul
+              li.active
+                a(href="fancy") Home
+              li
+                a(href="resume") Resume
+              li
+                a(href="projects") Projects
+              li
+                a(href="#") About
+              li
+                a(href="#") Contact
+    
+    block content
+      

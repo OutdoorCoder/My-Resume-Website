@@ -1,0 +1,27 @@
+
+
+
+.content-wrapper {
+  height: auto;
+  width: 60%;
+  color: #111;
+  background-color: #ccffff;
+
+  margin: auto;
+  left:0;
+  right: 0;
+  bottom: 0;
+
+  border: 1px solid #ccffff;
+  border-radius: 5px;
+
+  position: relative;
+
+
+}
+
+.image-block
+{
+  text-align: center;
+  width:100%; /*scale to fit*/
+}

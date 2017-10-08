@@ -18,4 +18,8 @@ router.get('/fancy', function(req, res, next) {
   res.render('fancy_home_page', { title: 'Cameron Massey' });
 });
 
+router.get('/fancy_resume', function(req, res, next) {
+  res.render('fancy_resume', { title: 'Cameron Massey' });
+});
+
 module.exports = router;
