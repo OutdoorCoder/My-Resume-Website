@@ -1,11 +1,27 @@
 extends fancy_layout
 append styles
   link(href="../css/fancy_resume.css", rel="stylesheet")
-    
+
+block navbar
+  nav
+    ul
+      li
+        a(href="fancy") Home
+      li.active
+        a(href="fancy_resume") Resume
+      li
+        a(href="projects") Projects
+      li
+        a(href="#") About
+      li
+        a(href="#") Contact
+
+
 block content
-  .content-wrapper.inner
+  .content-wrapper
     .image-block
-      img.image(src='http://localhost:3000/images/fast_logo.png')
-    h3 FAST Interprises
-    h4 Employment: 2017 - Present
-    p At FAST I worked with a vibrant team of people I don't know yet to work on things I don't know about.
+      
+    .text-content.inner
+      h3 FAST Enterprises
+      h4 Employment: 2017 - Present
+      p At FAST I worked with a vibrant team of people I don't know yet to work on things I don't know about.

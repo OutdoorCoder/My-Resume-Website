@@ -1,7 +1,22 @@
 extends fancy_layout
 append styles
   link(href="../css/fancy_home_page.css", rel="stylesheet")
-    
+
+block navbar
+  nav
+    ul
+      li.active
+        a(href="fancy") Home
+      li
+        a(href="fancy_resume") Resume
+      li
+        a(href="projects") Projects
+      li
+        a(href="#") About
+      li
+        a(href="#") Contact
+
+
 block content
   .content-wrapper
     .quote-one
@@ -18,4 +33,4 @@ block content
         
     .welcome-button
       h1 Welcome
-      a(href="resume", class="btn btn-lg btn-default") Learn more
+      a(href="fancy_resume", class="btn btn-lg btn-default") Learn more
