@@ -26,15 +26,29 @@
   left:0;
   right: 0;
   bottom: 0;
+  top: 0;
+  padding-bottom: 50px;
 
   border: 1px solid #ccffff;
   border-radius: 5px;
+
+  font-family: "Gill Sans MT","Gill Sans",Corbel,Arial,sans-serif;
+  font-size: 1em;
+  color: #404040;
 }
 
-.image-block
+.fast-image-block
 {
   height: 264px;
   width: 100%;
   background-image: url('http://localhost:3000/images/fast.png');
+  background-size: cover;
+}
+
+.ewu-image-block
+{
+  height: 264px;
+  width: 100%;
+  background-image: url('http://localhost:3000/images/ewu_banner.png');
   background-size: cover;
 }
