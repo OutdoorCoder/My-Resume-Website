@@ -32,17 +32,17 @@ Site containers
 
 .site-wrapper {
   width: 100%;/* For at least Firefox */
-  height: 100%;
+  height: auto;
+  min-height: 100%;
 
 }
 
 .content-wrapper {
-  position: absolute;
-  height: 90%
+  height: 90%;
 }
 
 .navbar-container {
-  height: 10%;
+  height: 100px;
   background-color: #333;
 }
 
@@ -63,7 +63,9 @@ Navbar attributes
   height: 100%;
   width: 100%;
   margin: 0;
-  padding: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 20px;
 }
 
 .navbar-content > nav > ul > li {
