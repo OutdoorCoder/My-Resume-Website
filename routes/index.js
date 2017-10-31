@@ -22,4 +22,8 @@ router.get('/fancy_resume', function(req, res, next) {
   res.render('fancy_resume', { title: 'Cameron Massey' });
 });
 
+router.get('/bike_page', function(req, res, next) {
+  res.render('bike_page', { title: 'Cameron Massey' });
+});
+
 module.exports = router;

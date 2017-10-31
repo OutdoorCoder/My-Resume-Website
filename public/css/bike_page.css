@@ -1,0 +1,46 @@
+/*
+Site containers
+*/
+
+
+.content-wrapper-one {
+  width: 60%;
+  height: 100%;
+
+  margin: auto;
+  left:0;
+  right: 0;
+  bottom: 0;
+
+}
+
+.header{
+
+
+  width: 100%;
+  height: 500px;
+  background-image: url('http://localhost:3000/images/bike_header.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+}
+
+.header-text {
+
+  position: relative;
+  float: left;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 48px;
+  font-family: "Chonburi","Gill Sans MT","Gill Sans",Corbel,Arial,sans-serif;
+}
+
+.body-content {
+  width: 100%;
+  height: 500px;
+  background-color: #B9B9B9;
+
+
+}
