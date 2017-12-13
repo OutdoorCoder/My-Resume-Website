@@ -12,10 +12,27 @@ Site containers
   position: relative;
 }
 
-.content-wrapper-two {
+.content-wrapper-two{
+  width: 100%;
+  height: 500px;
+  background-color: #0A0225;
+  background: linear-gradient(113deg, #0A0225 0%, #1e066e 46.5%, #170555 46.5%);
+  font-family: "GT Walsheim",sans-serif;
+  font-size: 2.5em;
+  line-height: 1.3em;
+  font-weight: 600;
+  letter-spacing: .03em;
+  padding: 10px 10px 10px;
+  color: #00FFC6;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.content-wrapper-three {
   width: 100%;
   height: 1000px;
-  background-image: url('http://localhost:3000/images/Grey_Triangles.png');
+  background-image: url('http://localhost:3000/images/DSC_0064.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
