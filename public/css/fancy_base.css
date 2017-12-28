@@ -59,7 +59,7 @@ Navbar attributes
 }
 
 .navbar-content > nav > ul {
-  background-color: #fff;
+  background-color: #fefbd8;
   height: 100%;
   width: 100%;
   margin: 0;
@@ -98,12 +98,12 @@ Navbar attributes
 }
 
 .navbar-content .active {
-  background-color: #fff;
+  background-color: #fefbd8;
 }
 
 .navbar-content .active > a,
 .navbar-content .active > a:hover {
   border-bottom-color: #111;
-  background-color: #fff;
+  background-color: #fefbd8;
   color: #111;
 }
