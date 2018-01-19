@@ -5,8 +5,8 @@ Site containers
 
 .content-wrapper-one {
   width: 100%;
-  height: 800px;
-  background-image: url('http://localhost:3000/images/DSC_0066.jpg');
+  height: 1000px;
+  background-image: url('http://localhost:3000/images/DSC_0069.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -32,7 +32,7 @@ Site containers
 .content-wrapper-three {
   width: 100%;
   height: 1000px;
-  background-image: url('http://localhost:3000/images/DSC_0064.jpg');
+  background-image: url('http://localhost:3000/images/DSC_0094.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
