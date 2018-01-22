@@ -2,6 +2,13 @@
 /*
 Site containers
 */
+.heading-font{
+  font-family: 'Arvo', Georgia, Times, serif;
+}
+
+.sub-font{
+  font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+}
 
 .content-wrapper-one {
   width: 100%;
@@ -10,6 +17,54 @@ Site containers
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  overflow: hidden;
+
+}
+
+.title > h1 {
+
+  font-size: 400px;
+  line-height: 500px;
+
+  text-align: center;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-30%);
+}
+
+.sub-title{
+  text-align: center;
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-65%);
+  width: 100%;
+
+  font-size: 100px;
+  line-height: 110px;
+}
+
+.sub-sub-title {
+  text-align: center;
+  position: absolute;
+  top: 73%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-73%);
+
+  font-size: 50px;
+  line-height: 60px;
+}
+
+.sub-sub-sub-title {
+  text-align: center;
+  position: absolute;
+  top: 78%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-78%);
+
+  font-size: 20px;
+  line-height: 30px;
 }
 
 .content-wrapper-two{
@@ -22,11 +77,36 @@ Site containers
   line-height: 1.3em;
   font-weight: 600;
   letter-spacing: .03em;
+
   padding: 10px 10px 10px;
-  color: #00FFC6;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+}
+
+.skills-description {
+  margin-top: 60px;
+  margin-left: 60px;
+  margin-right: 60px;
+
+  font-size: 20px;
+  line-height: 50px;
+}
+
+.life-skills{
+  float: left;
+}
+
+.code-skills {
+  margin-left: 55%;
+}
+
+.code-skills > ul > li > ul {
+  line-height: 20px;
+}
+
+.code-skills > ul > li > ul > li{
+  margin: 0 0 10px 0;
 }
 
 .content-wrapper-three {
@@ -49,22 +129,4 @@ Content pieces
   top: 70%;
   left: 50%;
   transform: translateX(-50%) translateY(-70%);
-}
-
-.quote-one{
-  position: absolute;
-  top: 100px;
-  left: 190px;
-}
-
-.quote-two{
-  position: absolute;
-  top: 350px;
-  left: 1500px;
-}
-
-.quote-three{
-  position: absolute;
-  top: 70px;
-  left: 900px;
 }

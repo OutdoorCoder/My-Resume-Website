@@ -59,9 +59,7 @@ Navbar attributes
 }
 
 .navbar-content > nav > ul {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+
   background-color: #fefbd8;
   height: 100%;
   width: 100%;
@@ -71,7 +69,9 @@ Navbar attributes
 }
 
 .navbar-content > nav > ul > li {
-  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   float: left;
   height: 100%;
 }
