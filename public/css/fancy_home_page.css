@@ -1,6 +1,6 @@
 
 /*
-Site containers
+fonts
 */
 .heading-font{
   font-family: 'Arvo', Georgia, Times, serif;
@@ -9,6 +9,10 @@ Site containers
 .sub-font{
   font-family: 'PT Sans', Helvetica, Arial, sans-serif;
 }
+
+/*
+content one
+*/
 
 .content-wrapper-one {
   width: 100%;
@@ -67,6 +71,10 @@ Site containers
   line-height: 30px;
 }
 
+/*
+content two
+*/
+
 .content-wrapper-two{
   width: 100%;
   height: 500px;
@@ -91,6 +99,10 @@ Site containers
 
   font-size: 20px;
   line-height: 50px;
+
+  border-width: 1px;
+  border-style: double;
+
 }
 
 .life-skills{
@@ -109,14 +121,67 @@ Site containers
   margin: 0 0 10px 0;
 }
 
+/*
+content three
+*/
+
 .content-wrapper-three {
   width: 100%;
-  height: 1000px;
-  background-image: url('http://localhost:3000/images/DSC_0094.jpg');
+  height: 2000px;
+  background-image: url('http://localhost:3000/images/ice_rocks.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
 }
+
+.projects-title > h1{
+  font-size: 200px;
+  line-height: 210x;
+
+  text-align: center;
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-5%);
+}
+
+.breakout-pic {
+  background-image: url('http://localhost:3000/images/breakout.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 25px;
+
+  height: 480px;
+  width: 270px;
+  margin-left: 300px;
+  float: left;
+  margin-top: 500px;
+}
+
+.breakout-description {
+  position: absolute;
+  margin-top: 500px;
+  height: 960px;
+  width: 60%;
+  margin-left: 35%;
+  margin-right: 20%;
+
+
+}
+
+.breakout-description > .heading-font > h2 {
+  font-size: 100px;
+  line-height: 110px;
+}
+
+.breakout-description > .sub-font > p {
+  font-size: 30px;
+  line-height: 40px;
+
+  background-color: #D3D3D3;
+}
+
+
 
 
 /*
