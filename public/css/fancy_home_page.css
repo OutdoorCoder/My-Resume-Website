@@ -132,6 +132,7 @@ content three
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  overflow: hidden;
 }
 
 .projects-title > h1{
@@ -145,6 +146,20 @@ content three
   transform: translateX(-50%) translateY(-5%);
 }
 
+.content-wrapper-three-content {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  height: 2000px;
+  width: 70%;
+  background-color: #333;
+  margin-top: 400px;
+
+  border-radius: 25px;
+}
+
+
 .breakout-pic {
   background-image: url('http://localhost:3000/images/breakout.png');
   background-repeat: no-repeat;
@@ -153,20 +168,18 @@ content three
 
   height: 480px;
   width: 270px;
-  margin-left: 300px;
+  margin-left: 30px;
   float: left;
-  margin-top: 500px;
+  margin-top: 50px;
 }
 
 .breakout-description {
   position: absolute;
-  margin-top: 500px;
+  margin-top: 50px;
   height: 960px;
-  width: 60%;
-  margin-left: 35%;
-  margin-right: 20%;
+  margin-left: 330px;
 
-
+  width: 50%;
 }
 
 .breakout-description > .heading-font > h2 {
@@ -178,7 +191,6 @@ content three
   font-size: 30px;
   line-height: 40px;
 
-  background-color: #D3D3D3;
 }
 
 
