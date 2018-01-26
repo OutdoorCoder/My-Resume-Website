@@ -133,6 +133,7 @@ content three
   background-size: cover;
   position: relative;
   overflow: hidden;
+  display: inline-block;
 }
 
 .projects-title > h1{
@@ -159,6 +160,12 @@ content three
   border-radius: 25px;
 }
 
+.project {
+  height: 500px;
+  display: inline-block;
+  width: 100%;
+  margin-top: 10px;
+}
 
 .breakout-pic {
   background-image: url('http://localhost:3000/images/breakout.png');
@@ -193,7 +200,32 @@ content three
 
 }
 
+.alert-pic {
+  background-image: url('http://localhost:3000/images/AlertSystemGatherer.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 25px;
 
+  height: 325px;
+  width: 650px;
+  margin-left: 30px;
+  float: right;
+  margin-top: 70px;
+}
+
+.alert-description {
+  position: absolute;
+  margin-top: 70px;
+  height: 960px;
+  margin-left: 30px;
+
+  width: 50%;
+}
+
+.alert-description > .heading-font > h2 {
+  font-size: 100px;
+  line-height: 110px;
+}
 
 
 /*
