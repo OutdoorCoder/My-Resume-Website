@@ -340,6 +340,12 @@ content three
 .content-wrapper-four-content > .four-section1 > .wrapper-four-p1 > .sub-font > p {
   width: 50%;
   margin-left: 40px;
+  padding-top: 50px;
+}
+
+.content-wrapper-four-content > .four-section1 > .wrapper-four-p1 > .heading-font > h2 {
+  font-size: 80px;
+  line-height: 90px;
 }
 
 .content-wrapper-four-content > .four-section1 > .wrapper-four-image1 {
@@ -363,6 +369,26 @@ content three
 
   height: 600px;
   width: 600px;
-  margin-top: 150px;
+  margin-top: 80px;
   margin-left: 40px;
+}
+
+.content-wrapper-four-content > .four-section1 > .wrapper-four-p2 > .sub-font > p {
+  width: 600px;
+  float: right;
+  margin-top: 70px;
+  margin-right: 40px;
+}
+
+.content-wrapper-four-content > .four-section1 > .wrapper-four-image3 {
+  float: right;
+  background-image: url('http://localhost:3000/images/DSC_0095.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 25px;
+  margin-right: 40px;
+  margin-top: 90px;
+
+  height: 600px;
+  width: 600px;
 }
