@@ -292,7 +292,7 @@ content three
 
 .content-wrapper-four {
   width: 100%;
-  height: 2000px;
+  height: 4000px;
   background-color: #fefbd8;
   color: #333;
   /*background: linear-gradient(113deg, #36486b 0%, #1e066e 46.5%, #36486b 46.5%);*/
@@ -306,7 +306,7 @@ content three
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  overflow: hidden;
+  overflow:visible;
 }
 
 .content-wrapper-four > .heading-font > h1 {
@@ -325,7 +325,7 @@ content three
 
 .content-wrapper-four-content {
   width: 75%;
-  height: 1000px;
+  height: auto;
   margin-left: 12.5%;
   margin-right: 12.5%;
   margin-top: 100px;
@@ -338,7 +338,7 @@ content three
 }
 
 .content-wrapper-four-content > .four-section1 > .wrapper-four-p1 > .sub-font > p {
-  width: 50%;
+  width: 600px;
   margin-left: 40px;
   padding-top: 50px;
 }
@@ -383,6 +383,71 @@ content three
 .content-wrapper-four-content > .four-section1 > .wrapper-four-image3 {
   float: right;
   background-image: url('http://localhost:3000/images/DSC_0095.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 25px;
+  margin-right: 40px;
+  margin-top: 90px;
+
+  height: 600px;
+  width: 600px;
+}
+
+.content-wrapper-four-content > .four-section1 > .wrapper-four-p3 > .heading-font > h2 {
+
+  margin-top: 750px;
+  font-size: 80px;
+  line-height: 90px;
+}
+
+.content-wrapper-four-content > .four-section1 > .wrapper-four-p3 > .sub-font > p {
+  width: 600px;
+  margin-left: 40px;
+  padding-top: 50px;
+}
+
+.content-wrapper-four-content > .four-section1 > .wrapper-four-image4 {
+  float: left;
+  background-image: url('http://localhost:3000/images/DSC_0225.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 25px;
+
+  height: 600px;
+  width: 600px;
+  margin-top: 80px;
+  margin-left: 40px;
+}
+
+.content-wrapper-four-content > .four-section1 > .wrapper-four-image5 {
+  float: right;
+  background-image: url('http://localhost:3000/images/DSC_0084.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 25px;
+  margin-right: 40px;
+  margin-top: 90px;
+
+  height: 600px;
+  width: 600px;
+}
+
+.content-wrapper-four-content > .four-section1 > .wrapper-four-image6 {
+  float: left;
+  background-image: url('http://localhost:3000/images/DSC_0181.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 25px;
+
+  height: 600px;
+  width: 600px;
+  margin-top: 80px;
+  margin-left: 40px;
+}
+
+.content-wrapper-four-content > .four-section1 > .wrapper-four-image7 {
+  float: right;
+  background-image: url('http://localhost:3000/images/DSC_0012.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 25px;
