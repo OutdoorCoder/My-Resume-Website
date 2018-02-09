@@ -292,7 +292,7 @@ content three
 
 .content-wrapper-four {
   width: 100%;
-  height: 4000px;
+  height: 3600px;
   background-color: #fefbd8;
   color: #333;
   /*background: linear-gradient(113deg, #36486b 0%, #1e066e 46.5%, #36486b 46.5%);*/
@@ -456,4 +456,48 @@ content three
 
   height: 600px;
   width: 600px;
+}
+
+.content-wrapper-four-content > .four-section1 > .wrapper-four-p4 > .heading-font > h2 {
+
+  margin-top: 1450px;
+  font-size: 80px;
+  line-height: 90px;
+}
+
+.content-wrapper-four-content > .four-section1 > .wrapper-four-p4 > .sub-font > p {
+  width: 600px;
+  margin-left: 40px;
+  padding-top: 50px;
+}
+
+/*contact*/
+.content-wrapper-five {
+  width: 100%;
+  height: 200px;
+  background-color: #333;
+  color: #FFF;
+  /*background: linear-gradient(113deg, #36486b 0%, #1e066e 46.5%, #36486b 46.5%);*/
+  font-size: 1.5em;
+  line-height: 1.0em;
+  font-weight: 600;
+
+  margin: 0px;
+  padding: 10px 10px 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow:visible;
+
+}
+
+.content-wrapper-five > .content-wrapper-five-content > .sub-font {
+
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-40%, -50%);
+
+  width: 50%;
 }
