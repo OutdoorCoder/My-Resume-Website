@@ -8,13 +8,13 @@ block navbar
       li.active
         a(href="fancy") Home
       li
-        a(href="fancy_resume") Resume
+        a(href="fancy#projects") Projects
       li
-        a(href="projects") Projects
+        a(href="fancy#resume") Resume
       li
-        a(href="#") About
+        a(href="fancy#about") About
       li
-        a(href="#") Contact
+        a(href="fancy#contact") Contact
 
 
 block content
@@ -34,10 +34,6 @@ block content
       .sub-sub-sub-title
         p and do some other stuff
       
-    //.welcome-button
-      h1 Welcome
-      a(href="fancy_resume", class="btn btn-lg btn-default") Learn more
-    
   .content-wrapper-two
     .skills-description
       .heading-font
@@ -53,7 +49,7 @@ block content
                 li I'm currenly learning how to develop web API's using Nodejs.
     .profile-picture
   .content-wrapper-three
-    .projects-title
+    .projects-title#projects
       .heading-font
         h1 Projects
         
@@ -79,14 +75,14 @@ block content
             h2 This Website!
           .sub-font
             p I made this website using express and pug, all built in Node.js.
-    .resume-title
+    .resume-title#resume
       .heading-font
         h1 Resume
     .pdf-div
       embed(src = "/images/Resume.pdf" width = '960px' height = '960px') 
   
   .content-wrapper-four
-    .heading-font
+    .heading-font#about
       h1 About Me
     hr
     .content-wrapper-four-content
@@ -117,7 +113,7 @@ block content
           .sub-font
             p On a work free day, depending on the season, I'd go climbing or skiing with friends taking photos along the way. After, I'd head home and make some bread, then settle down to read a book. 
 
-  .content-wrapper-five
+  .content-wrapper-five#contact
     .content-wrapper-five-content
       .sub-font
         p Email: cameron_massey@yahoo.com
