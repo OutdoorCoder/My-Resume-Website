@@ -54,6 +54,10 @@ Navbar attributes
   height: 100%;
 }
 
+.logo-content{
+
+}
+
 .navbar-content > nav {
   height: 100%;
 }
@@ -102,6 +106,11 @@ Navbar attributes
 .navbar-content .active {
   background-color: #fefbd8;
 }
+
+.navbar-content .image {
+  float: right;
+}
+
 
 .navbar-content .active > a,
 .navbar-content .active > a:hover {
