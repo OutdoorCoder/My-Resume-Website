@@ -174,7 +174,7 @@ content three
   margin-right: auto;
   padding: 0;
   height: 1525px;
-  width: 1335px;
+  width: 1400px;
   background-color: #333;
   margin-top: 400px;
 
@@ -196,7 +196,7 @@ content three
 
   height: 480px;
   width: 270px;
-  margin-left: 30px;
+  margin-left: 40px;
   float: left;
   margin-top: 50px;
 }
@@ -205,7 +205,7 @@ content three
   position: absolute;
   margin-top: 50px;
   height: 480px;
-  margin-left: 330px;
+  margin-left: 400px;
 
   width: 50%;
 }
@@ -218,7 +218,7 @@ content three
 .breakout-description > .sub-font > p {
   font-size: 30px;
   line-height: 40px;
-
+  width: 70%;
 }
 
 .alert-pic {
@@ -229,17 +229,16 @@ content three
 
   height: 325px;
   width: 650px;
-  margin-left: 30px;
   float: right;
   margin-top: 70px;
-  margin-right: 10px;
+  margin-right: 40px;
 }
 
 .alert-description {
   position: absolute;
   margin-top: 70px;
   height: 960px;
-  margin-left: 30px;
+  margin-left: 40px;
 
   width: 50%;
 }
@@ -253,7 +252,7 @@ content three
 .alert-description > .sub-font > p {
   font-size: 20px;
   line-height: 25px;
-  width: 65%;
+  width: 50%;
 }
 
 .website-pic{
@@ -264,7 +263,7 @@ content three
 
   height: 350px;
   width: 550px;
-  margin-left: 30px;
+  margin-left: 40px;
   float: left;
   margin-top: 50px;
 }
@@ -338,7 +337,7 @@ content three
 .content-wrapper-four > hr {
   color: #333;
   border-color: #333;
-  width: 75%;
+  width: 60%;
 }
 
 .content-wrapper-four-content {
@@ -357,13 +356,14 @@ content three
 
 .content-wrapper-four-content > .four-section1 > .wrapper-four-p1 > .sub-font > p {
   width: 600px;
-  margin-left: 40px;
+  margin-left: 240px;
   padding-top: 50px;
 }
 
 .content-wrapper-four-content > .four-section1 > .wrapper-four-p1 > .heading-font > h2 {
   font-size: 80px;
   line-height: 90px;
+  margin-left: 240px;
 }
 
 .content-wrapper-four-content > .four-section1 > .wrapper-four-image1 {
@@ -372,7 +372,7 @@ content three
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 25px;
-  margin-right: 40px;
+  margin-right: 200px;
 
   height: 600px;
   width: 600px;
@@ -388,14 +388,14 @@ content three
   height: 600px;
   width: 600px;
   margin-top: 80px;
-  margin-left: 40px;
+  margin-left: 240px;
 }
 
 .content-wrapper-four-content > .four-section1 > .wrapper-four-p2 > .sub-font > p {
   width: 600px;
   float: right;
   margin-top: 70px;
-  margin-right: 40px;
+  margin-right: 200px;
 }
 
 .content-wrapper-four-content > .four-section1 > .wrapper-four-image3 {
@@ -404,7 +404,7 @@ content three
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 25px;
-  margin-right: 40px;
+  margin-right: 140px;
   margin-top: 90px;
 
   height: 600px;
@@ -416,11 +416,12 @@ content three
   margin-top: 750px;
   font-size: 80px;
   line-height: 90px;
+  margin-left: 200px;
 }
 
 .content-wrapper-four-content > .four-section1 > .wrapper-four-p3 > .sub-font > p {
   width: 600px;
-  margin-left: 40px;
+  margin-left: 240px;
   padding-top: 50px;
 }
 
@@ -432,7 +433,7 @@ content three
   border-radius: 25px;
 
   height: 600px;
-  width: 600px;
+  width: 900px;
   margin-top: 80px;
   margin-left: 40px;
 }
@@ -447,7 +448,7 @@ content three
   margin-top: 90px;
 
   height: 600px;
-  width: 600px;
+  width: 700px;
 }
 
 .content-wrapper-four-content > .four-section1 > .wrapper-four-image6 {
@@ -458,7 +459,7 @@ content three
   border-radius: 25px;
 
   height: 600px;
-  width: 600px;
+  width: 700px;
   margin-top: 80px;
   margin-left: 40px;
 }
@@ -467,13 +468,13 @@ content three
   float: right;
   background-image: url('http://localhost:3000/images/DSC_0012.jpg');
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size:auto;
   border-radius: 25px;
   margin-right: 40px;
   margin-top: 90px;
 
   height: 600px;
-  width: 600px;
+  width: 900px;
 }
 
 .content-wrapper-four-content > .four-section1 > .wrapper-four-p4 > .heading-font > h2 {
@@ -481,11 +482,12 @@ content three
   margin-top: 1450px;
   font-size: 80px;
   line-height: 90px;
+  margin-left: 140px;
 }
 
 .content-wrapper-four-content > .four-section1 > .wrapper-four-p4 > .sub-font > p {
   width: 600px;
-  margin-left: 40px;
+  margin-left: 170px;
   padding-top: 50px;
 }
 
