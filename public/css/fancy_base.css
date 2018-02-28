@@ -70,6 +70,7 @@ Navbar attributes
   margin: 0;
   padding-left: 50px;
   padding-right: 50px;
+  list-style-type: none;
 }
 
 .navbar-content > nav > ul > li {
@@ -111,10 +112,42 @@ Navbar attributes
   float: right;
 }
 
+.navbar-content .icon {
+  display: none;
+}
 
 .navbar-content .active > a,
 .navbar-content .active > a:hover {
   border-bottom-color: #111;
   background-color: #fefbd8;
   color: #111;
+}
+
+
+
+@media (max-width: 768px) {
+  .navbar-content > nav > ul > li > a {display: none;}
+  .navbar-content .active > a{
+    display: inline-block;
+  }
+
+  .navbar-content .image {
+    display: inline-block;
+  }
+
+  .navbar-content .image > a {
+    display: inline-block;
+    margin-top: 10px;
+  }
+
+  .navbar-content .icon {
+    display: none;
+    float: right;
+  }
+  .navbar-content .icon > a {
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 40px;
+  }
+
 }

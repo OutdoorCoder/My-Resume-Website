@@ -100,8 +100,8 @@ content two
 
   height: 300px;
   width: 300px;
-  margin-left: 200px;
-  margin-top: 100px;
+  margin-left: 350px;
+  margin-top: 80px;
 
   background-image: url('http://localhost:3000/images/profile.jpg');
   background-repeat: no-repeat;
@@ -520,4 +520,64 @@ content three
   transform: translate(-40%, -50%);
 
   width: 50%;
+}
+
+/*mobile version*/
+@media (max-width: 768px) {
+  .content-wrapper-one {
+    width: 100%;
+    height: 500px;
+    background-image: url('http://localhost:3000/images/DSC_0069.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .title > h1 {
+
+    font-size: 130px;
+    line-height: 140px;
+
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-30%);
+  }
+
+  .sub-title{
+    text-align: center;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-65%);
+    width: 100%;
+
+    font-size: 50px;
+  }
+
+  .sub-sub-title {
+    text-align: center;
+    position: absolute;
+    top: 73%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-73%);
+
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .sub-sub-sub-title {
+    text-align: center;
+    position: absolute;
+    top: 78%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-78%);
+
+    font-size: 15px;
+    margin-top: 10px;
+  }
+
+
 }
