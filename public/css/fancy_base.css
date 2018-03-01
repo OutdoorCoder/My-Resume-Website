@@ -127,6 +127,12 @@ Navbar attributes
 
 @media (max-width: 768px) {
   .navbar-content > nav > ul > li > a {display: none;}
+
+  .navbar-content > nav > ul {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
   .navbar-content .active > a{
     display: inline-block;
   }
