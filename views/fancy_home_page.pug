@@ -17,10 +17,10 @@ block navbar
         a(href="fancy#contact") Contact
       li.image
         a(href='https://github.com/OutdoorCoder?tab=repositories')
-          img(src = "http://10.0.0.3:3000/images/GitHub-Mark.png") 
+          img(src = "http://192.168.1.2:3000/images/GitHub-Mark.png") 
       li.image
         a(href = 'https://www.linkedin.com/in/cameron-massey-056b89127/')
-          img(src = "http://10.0.0.3:3000/images/linkedin-logo.png")
+          img(src = "http://192.168.1.2:3000/images/linkedin-logo.png")
       li.icon
         a ☰
         
@@ -55,7 +55,7 @@ block content
               p Freshining up my Phyton skills
             li
               p Working on this website in order to improve my front end web skills
-    img.profile-picture(src="http://localhost:3000/images/profile.jpg" alt="Cameron")
+    img.profile-picture(src="http://192.168.1.2:3000/images/profile.jpg" alt="Cameron")
   .content-wrapper-three
     .projects-title#projects
       .heading-font
@@ -63,19 +63,20 @@ block content
         
     .content-wrapper-three-content
       .project
-        .breakout-pic
         .breakout-description
           .heading-font
             h2 Breakout
           .sub-font
             p For the final project of an android development class I took in college I created this phone app. Its a remake of the classic breakout game.
+
+        .breakout-pic
       .project
-        .alert-pic
         .alert-description  
           .heading-font
             h2 Alert System
           .sub-font
             p Me and three others created this project at EWU for our University Culminating Project. The purpose of this project is to provide a a single web app that provides information and push notifications for local alerts in the Spokane area. Alerts include WSDOT traffic alerts such as road closures, traffic incidents, road conditions, and severe weather warnings through NWS. The future goal of the project is too include other alert services like fires, crime, and school closures.
+        .alert-pic
       .project
         .website-pic
         .website-description
