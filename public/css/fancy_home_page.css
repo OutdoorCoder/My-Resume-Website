@@ -660,7 +660,7 @@ content three
   .content-wrapper-three-content {
     display: block;
     padding: 0;
-    height: 1525px;
+    height: 2000px;
     width: 100%;
     background-color: #333;
     margin-top: 200px;
@@ -713,6 +713,49 @@ content three
     padding: 0;
 
     margin-top: 510px;
+  }
+
+  .alert-pic {
+    margin-top: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    float: none;
+
+    width: 270px;
+    height: 150px;
+  }
+
+  .alert-description > .heading-font > h2 {
+    font-size: 60px;
+    line-height: 70px;
+    text-align: center;
+
+    margin-top: 20px;
+    margin-bottom: 0px;
+    padding: 0;
+    text-align: center;
+
+  }
+
+  .alert-description {
+    position: absolute;
+    margin-top: 10px;
+    height: 480px;
+    margin-left: 0px;
+
+    width: 100%;
+  }
+
+  .alert-description > .sub-font > p {
+    font-size: 20px;
+    line-height: 30px;
+    width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 0;
+
+    margin-top: 210px;
   }
 
 
