@@ -303,7 +303,8 @@ content three
   top: 0; right: 0; /* confuse it i guess */
   bottom: 0; left: 0;
   margin: auto; /* make em equal */
-  left: 29%;
+
+  width: 1000px;
 
 }
 
@@ -799,6 +800,22 @@ content three
     padding: 0;
 
     margin-top: 280px;
+  }
+
+  .resume-title > .heading-font > h1 {
+    font-size: 70px;
+    line-height: 80px;
+    text-align: center;
+
+    height: 100px;
+  }
+
+  .pdf-div {
+    position: relative;; /* positions out of the flow, but according to the nearest parent */
+    float: left;
+    left: 0;
+    width: 500px;
+
   }
 
 }
