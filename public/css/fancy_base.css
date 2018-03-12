@@ -36,6 +36,8 @@ Site containers
   height: auto;
   min-height: 100%;
   overflow-x: hidden;
+  overflow-y: hidden;
+
 
 }
 
