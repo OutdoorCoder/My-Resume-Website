@@ -819,7 +819,7 @@ content three
   }
 
   .content-wrapper-four {
-
+    height: 4200px;
   }
 
   .content-wrapper-four > .heading-font > h1 {
@@ -849,12 +849,12 @@ content three
     line-height: 60px;
     margin-left: 0px;
 
-    margin-top: 0px;
+    margin-top: 20px;
   }
 
   .content-wrapper-four-content > .four-section1 > .wrapper-four-p1 > .sub-font > p {
     width: 100%;
-    padding-top: 50px;
+    margin-top: 30px;
     margin-left: 0px;
     padding-top: 10px;
     padding-left: 10px;
@@ -875,4 +875,104 @@ content three
   .content-wrapper-four-content > .four-section1 > .wrapper-four-image2 {
     display: none;
   }
+
+  .content-wrapper-four-content > .four-section1 > .wrapper-four-p2 > .sub-font > p {
+    width: 100%;
+    float: none;
+    margin-top: 70px;
+    margin-right: 0px;
+    padding-left: 10px;
+  }
+
+  .content-wrapper-four-content > .four-section1 > .wrapper-four-image3 {
+    float: none;
+    background-image: url('http://localhost:3000/images/DSC_0095.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 25px;
+    margin-right: 0px;
+    margin-top: 90px;
+
+    height: 600px;
+    width: 100%;
+  }
+
+  .content-wrapper-four-content > .four-section1 > .wrapper-four-p3 > .heading-font > h2 {
+
+    margin-top: 20px;
+    font-size: 70px;
+    line-height: 80px;
+    margin-left: 0px;
+  }
+
+  .content-wrapper-four-content > .four-section1 > .wrapper-four-p3 > .sub-font > p {
+    width: 100%;
+    margin-left: 0px;
+    padding-top: 50px;
+    padding-left: 10px;
+  }
+
+  .content-wrapper-four-content > .four-section1 > .wrapper-four-image4 {
+    float: none;
+    background-image: url('http://localhost:3000/images/DSC_0225.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 25px;
+
+    height: 600px;
+    width: 100%;
+    margin-top: 80px;
+    margin-left: 0px;
+  }
+
+  .content-wrapper-four-content > .four-section1 > .wrapper-four-image5 {
+    display: none;
+  }
+
+  .content-wrapper-four-content > .four-section1 > .wrapper-four-image6 {
+    float: none;
+    background-image: url('http://localhost:3000/images/DSC_0181.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 25px;
+
+    height: 600px;
+    width: 100%;
+    margin-top: 80px;
+    margin-left: 0px;
+  }
+
+  .content-wrapper-four-content > .four-section1 > .wrapper-four-image7 {
+    display: none;
+  }
+
+  .content-wrapper-four-content > .four-section1 > .wrapper-four-p4 > .heading-font > h2 {
+
+    margin-top: 50px;
+    font-size: 60px;
+    line-height: 70px;
+    margin-left: 0px;
+    width: 100%;
+  }
+
+  .content-wrapper-four-content > .four-section1 > .wrapper-four-p4 > .sub-font > p {
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 30px;
+    margin-left: 10px;
+    padding-top: 0px;
+
+  }
+
+  .content-wrapper-five > .content-wrapper-five-content > .sub-font {
+
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(-10%, -50%);
+
+    width: 50%;
+  }
+
 }
